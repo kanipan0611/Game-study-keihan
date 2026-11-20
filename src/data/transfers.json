@@ -1,0 +1,316 @@
+{
+  "_comment": "乗換駅グループ。同一駅・改札外連絡など、各社が乗換案内している主要な組み合わせのみを収録。キーは 会社ID:駅名。walk=true は改札外の徒歩連絡。",
+  "groups": [
+    {
+      "name": "淀屋橋",
+      "stations": [
+        "keihan:淀屋橋",
+        "metro:淀屋橋"
+      ]
+    },
+    {
+      "name": "北浜",
+      "stations": [
+        "keihan:北浜",
+        "metro:北浜"
+      ]
+    },
+    {
+      "name": "天満橋",
+      "stations": [
+        "keihan:天満橋",
+        "metro:天満橋"
+      ]
+    },
+    {
+      "name": "京橋",
+      "stations": [
+        "keihan:京橋",
+        "jr:京橋",
+        "metro:京橋"
+      ]
+    },
+    {
+      "name": "丹波橋",
+      "stations": [
+        "keihan:丹波橋",
+        "kintetsu:近鉄丹波橋"
+      ]
+    },
+    {
+      "name": "東福寺",
+      "stations": [
+        "keihan:東福寺",
+        "jr:東福寺"
+      ]
+    },
+    {
+      "name": "祇園四条・京都河原町",
+      "stations": [
+        "keihan:祇園四条",
+        "hankyu:京都河原町"
+      ],
+      "walk": true
+    },
+    {
+      "name": "三条",
+      "stations": [
+        "keihan:三条",
+        "kyotosubway:三条京阪"
+      ]
+    },
+    {
+      "name": "六地蔵",
+      "stations": [
+        "keihan:六地蔵",
+        "jr:六地蔵",
+        "kyotosubway:六地蔵"
+      ],
+      "walk": true
+    },
+    {
+      "name": "黄檗",
+      "stations": [
+        "keihan:黄檗",
+        "jr:黄檗"
+      ],
+      "walk": true
+    },
+    {
+      "name": "河内森・河内磐船",
+      "stations": [
+        "keihan:河内森",
+        "jr:河内磐船"
+      ],
+      "walk": true
+    },
+    {
+      "name": "御陵",
+      "stations": [
+        "keihan:御陵",
+        "kyotosubway:御陵"
+      ]
+    },
+    {
+      "name": "山科",
+      "stations": [
+        "keihan:京阪山科",
+        "jr:山科",
+        "kyotosubway:山科"
+      ],
+      "walk": true
+    },
+    {
+      "name": "大津京",
+      "stations": [
+        "keihan:京阪大津京",
+        "jr:大津京"
+      ],
+      "walk": true
+    },
+    {
+      "name": "膳所",
+      "stations": [
+        "keihan:京阪膳所",
+        "jr:膳所"
+      ],
+      "walk": true
+    },
+    {
+      "name": "石山",
+      "stations": [
+        "keihan:京阪石山",
+        "jr:石山"
+      ]
+    },
+    {
+      "name": "石清水八幡宮・ケーブル八幡宮口",
+      "stations": [
+        "keihan:石清水八幡宮",
+        "keihan:ケーブル八幡宮口"
+      ],
+      "walk": true
+    },
+    {
+      "name": "梅田",
+      "stations": [
+        "hankyu:大阪梅田",
+        "hanshin:大阪梅田",
+        "jr:大阪",
+        "metro:梅田",
+        "metro:東梅田"
+      ],
+      "walk": true
+    },
+    {
+      "name": "三宮",
+      "stations": [
+        "hankyu:神戸三宮",
+        "hanshin:神戸三宮",
+        "jr:三ノ宮",
+        "kobesubway:三宮",
+        "kobesubway:三宮・花時計前"
+      ],
+      "walk": true
+    },
+    {
+      "name": "元町",
+      "stations": [
+        "hanshin:元町",
+        "jr:元町"
+      ]
+    },
+    {
+      "name": "西九条",
+      "stations": [
+        "hanshin:西九条",
+        "jr:西九条"
+      ]
+    },
+    {
+      "name": "ドーム前",
+      "stations": [
+        "hanshin:ドーム前",
+        "metro:ドーム前千代崎"
+      ],
+      "walk": true
+    },
+    {
+      "name": "難波",
+      "stations": [
+        "hanshin:大阪難波",
+        "kintetsu:大阪難波",
+        "metro:なんば",
+        "nankai:なんば"
+      ],
+      "walk": true
+    },
+    {
+      "name": "新大阪",
+      "stations": [
+        "jr:新大阪",
+        "metro:新大阪"
+      ]
+    },
+    {
+      "name": "京都",
+      "stations": [
+        "jr:京都",
+        "kyotosubway:京都",
+        "kintetsu:京都"
+      ]
+    },
+    {
+      "name": "天王寺",
+      "stations": [
+        "jr:天王寺",
+        "metro:天王寺"
+      ]
+    },
+    {
+      "name": "新今宮",
+      "stations": [
+        "jr:新今宮",
+        "nankai:新今宮",
+        "metro:動物園前"
+      ],
+      "walk": true
+    },
+    {
+      "name": "鶴橋",
+      "stations": [
+        "jr:鶴橋",
+        "kintetsu:鶴橋"
+      ]
+    },
+    {
+      "name": "森ノ宮",
+      "stations": [
+        "jr:森ノ宮",
+        "metro:森ノ宮"
+      ]
+    },
+    {
+      "name": "玉造",
+      "stations": [
+        "jr:玉造",
+        "metro:玉造"
+      ],
+      "walk": true
+    },
+    {
+      "name": "弁天町",
+      "stations": [
+        "jr:弁天町",
+        "metro:弁天町"
+      ]
+    },
+    {
+      "name": "大正",
+      "stations": [
+        "jr:大正",
+        "metro:大正"
+      ]
+    },
+    {
+      "name": "天満・扇町",
+      "stations": [
+        "jr:天満",
+        "metro:扇町"
+      ],
+      "walk": true
+    },
+    {
+      "name": "大阪天満宮・南森町",
+      "stations": [
+        "jr:大阪天満宮",
+        "metro:南森町"
+      ],
+      "walk": true
+    },
+    {
+      "name": "竹田",
+      "stations": [
+        "kintetsu:竹田",
+        "kyotosubway:竹田"
+      ]
+    },
+    {
+      "name": "日本橋",
+      "stations": [
+        "kintetsu:近鉄日本橋",
+        "metro:日本橋"
+      ]
+    },
+    {
+      "name": "上本町・谷町九丁目",
+      "stations": [
+        "kintetsu:大阪上本町",
+        "metro:谷町九丁目"
+      ],
+      "walk": true
+    },
+    {
+      "name": "烏丸・四条",
+      "stations": [
+        "hankyu:烏丸",
+        "kyotosubway:四条"
+      ]
+    },
+    {
+      "name": "天下茶屋",
+      "stations": [
+        "nankai:天下茶屋",
+        "metro:天下茶屋"
+      ]
+    },
+    {
+      "name": "南方・西中島南方",
+      "stations": [
+        "hankyu:南方",
+        "metro:西中島南方"
+      ],
+      "walk": true
+    }
+  ]
+}
